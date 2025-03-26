@@ -17,29 +17,38 @@ City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
 4.	City_List.csv: Geographic distribution of licenses across Vancouver neighbourhoods.
 5.	Source: Ingested into AWS S3 via EC2 instance and processed using AWS analytics services.
 # Methodology:
-# 1. Data Collection and Preparation: This phase involved sourcing, ingesting, profiling, and cleaning the supporting datasets.
+# 1. Data Collection and Preparation: 
+This phase involved sourcing, ingesting, profiling, and cleaning the supporting datasets.
+
 1.1. Data Sourcing: The Folderyear_List.csv, Businesstype_List.csv, and City_List.csv files were created and made available on the EC2 instance RGVS-Jonel (ec2-54-162-188-36.compute-1.amazonaws.com).
 # 1.2. Data Ingestion (AWS S3, EC2, PowerShell):
 1.2.1. S3 folders (e.g., within businesslicences2025-trf-jonel) were structured.
+
 1.2.2. Using PowerShell scripts executed via RDP on the EC2 instance, the following files were ingested into their respective AWS S3 locations:
+
 1.2.2.1 Folderyear_List.csv
+   
 1.2.2.2 Businesstype_List.csv
+   
 1.2.2.3 City_List.csv
 # 1.3. Data Profiling (AWS Glue DataBrew):
-1.3.1. Folderyear_List
+# 1.3.1. Folderyear_List:
 
 1.3.1.1. DataBrew Project: bus2025-fol-lst-prj-jonel created with dataset bus2025-fol-lst-ds-jonel
 
 1.3.1.2. Profiling Job: bus2025-fol-lst-ds-prf-jonel was run to analyze the schema, data types, and statistical properties
+
 # 1.3.2. Businesstype_List:
-# 1.3.2.1	Dataset created and profiling job bus2025-bus-lst-ds-prf-jonel was run.
+1.3.2.1	Dataset created and profiling job bus2025-bus-lst-ds-prf-jonel was run.
 # 1.3.3. City_List:
-# 1.3.3.1. DataBrew Project: bus2025-cit-lst-prj-jonel created with dataset bus2025-cit-lst-ds-jonel.
-# 1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
-# 1.4.	Data Cleaning (AWS Glue DataBrew): Based on profiling insights, cleaning recipes were built and applied:
-# 1.4.1. Folderyear_List: Cleaning Job bus2025-fol-lst-cln-jonel executed, producing cleaned outputs in CSV (S3 user folder) and Parquet (S3 system folder).
-# 1.4.2. BusinessType_List: Cleaning Job bus2025-bus-lst-cln-jonel executed, producing cleaned outputs in CSV and Parquet in respective S3 folders.
-# 1.4.3.	City_List: Cleaning Job bus2025-cln-lst-cln-jonel executed (Note: Typo in provided step, likely meant bus2025-cit-lst-cln-jonel), producing cleaned outputs in CSV and Parquet.
+1.3.3.1. DataBrew Project: bus2025-cit-lst-prj-jonel created with dataset bus2025-cit-lst-ds-jonel.
+
+1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
+# 1.4.	Data Cleaning (AWS Glue DataBrew): 
+Based on profiling insights, cleaning recipes were built and applied:
+1.4.1. Folderyear_List: Cleaning Job bus2025-fol-lst-cln-jonel executed, producing cleaned outputs in CSV (S3 user folder) and Parquet (S3 system folder).
+1.4.2. BusinessType_List: Cleaning Job bus2025-bus-lst-cln-jonel executed, producing cleaned outputs in CSV and Parquet in respective S3 folders.
+1.4.3.	City_List: Cleaning Job bus2025-cln-lst-cln-jonel executed (Note: Typo in provided step, likely meant bus2025-cit-lst-cln-jonel), producing cleaned outputs in CSV and Parquet.
 # 1.5.	Data Cataloging (AWS Glue Data Catalog, Glue Crawler):
 # 1.5.1. Data Catalog Database: businesslicences2025-data-catalog-jonel was created.
 # 1.5.2.	Crawler: businesslicences2025-crew-jones was configured and run, targeting the cleaned, structured data (likely the Parquet files in S3 system folders) to automatically infer schemas and create tables in the Glue Data Catalog. This makes the cleaned data queryable using services like AWS Athena.
