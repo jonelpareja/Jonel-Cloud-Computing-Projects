@@ -1,33 +1,34 @@
 
  #                                                                 Project Part 1
 # Project Description:
-   #     This descriptive analysis project details the process and initial findings for preparing and understanding foundational datasets used within the City of Vancouver's Data Analytics Platform (DAP). Specifically, it focuses on the Folderyear_List, Businesstype_List, and City_List datasets, essential for the broader "Business Licences 2025 Procedure" analysis. This document outlines the steps taken to ingest, profile, clean, catalogue, and summarize these supporting datasets, providing a clear overview of their characteristics and readiness for further analytical use.
-# Project Title: City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
+ This descriptive analysis project details the process and initial findings for preparing and understanding foundational datasets used within the City of Vancouver's Data Analytics Platform (DAP). Specifically, it focuses on the Folderyear_List, Businesstype_List, and City_List datasets, essential for the broader "Business Licences 2025 Procedure" analysis. This document outlines the steps taken to ingest, profile, clean, catalogue, and summarize these supporting datasets, providing a clear overview of their characteristics and readiness for further analytical use.
+# Project Title: 
+City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
 # Objectives:
-# 1. The primary objectives of this descriptive analysis are:
-#	2. To document the end-to-end procedure for ingesting, preparing, and cataloging the Folderyear_List, Businesstype_List, and City_List datasets using AWS cloud services.
-#	3. To profile and understand these essential supporting datasets' structure, content, quality, and statistical characteristics.
-#	4. To generate descriptive summaries and basic visualizations to illustrate the content of these lists.
-#	5. To ensure these foundational datasets are cleaned, well-documented (via catalogue), and ready for integration and use in subsequent, more complex analyses within the "Business Licences 2025 # Procedure" on the City of Vancouver's DAP.
+1. The primary objectives of this descriptive analysis are:
+2. To document the end-to-end procedure for ingesting, preparing, and cataloging the Folderyear_List, Businesstype_List, and City_List datasets using AWS cloud services.
+3. To profile and understand these essential supporting datasets' structure, content, quality, and statistical characteristics.
+4. To generate descriptive summaries and basic visualizations to illustrate the content of these lists.
+5. To ensure these foundational datasets are cleaned, well-documented (via catalogue), and ready for integration and use in subsequent, more complex analyses within the "Business Licences 2025 # Procedure" on the City of Vancouver's DAP.
 # Dataset:
-# 1.	Business_Licences_2025: Includes three key files:
-# 2.	Folderyear_List.csv: License records categorized by year.
-# 3.	Businesstype_List.csv: License classifications by business type (e.g., retail, hospitality).
-# 4.	City_List.csv: Geographic distribution of licenses across Vancouver neighbourhoods.
-# 5.	Source: Ingested into AWS S3 via EC2 instance and processed using AWS analytics services.
+1.	Business_Licences_2025: Includes three key files:
+2.	Folderyear_List.csv: License records categorized by year.
+3.	Businesstype_List.csv: License classifications by business type (e.g., retail, hospitality).
+4.	City_List.csv: Geographic distribution of licenses across Vancouver neighbourhoods.
+5.	Source: Ingested into AWS S3 via EC2 instance and processed using AWS analytics services.
 # Methodology:
 # 1. Data Collection and Preparation: This phase involved sourcing, ingesting, profiling, and cleaning the supporting datasets.
-# 1.1. Data Sourcing: The Folderyear_List.csv, Businesstype_List.csv, and City_List.csv files were created and made available on the EC2 instance RGVS-Jonel (ec2-54-162-188-36.compute-1.amazonaws.com).
+1.1. Data Sourcing: The Folderyear_List.csv, Businesstype_List.csv, and City_List.csv files were created and made available on the EC2 instance RGVS-Jonel (ec2-54-162-188-36.compute-1.amazonaws.com).
 # 1.2. Data Ingestion (AWS S3, EC2, PowerShell):
-# 1.2.1. S3 folders (e.g., within businesslicences2025-trf-jonel) were structured.
-# 1.2.2. Using PowerShell scripts executed via RDP on the EC2 instance, the following files were ingested into their respective AWS S3 locations:
-# 1.2.2.1 Folderyear_List.csv
-# 1.2.2.2 Businesstype_List.csv
-# 1.2.2.3 City_List.csv
+1.2.1. S3 folders (e.g., within businesslicences2025-trf-jonel) were structured.
+1.2.2. Using PowerShell scripts executed via RDP on the EC2 instance, the following files were ingested into their respective AWS S3 locations:
+1.2.2.1 Folderyear_List.csv
+1.2.2.2 Businesstype_List.csv
+1.2.2.3 City_List.csv
 # 1.3. Data Profiling (AWS Glue DataBrew):
-# 1.3.1. Folderyear_List:
-# 1.3.1.1. DataBrew Project: bus2025-fol-lst-prj-jonel created with dataset bus2025-fol-lst-ds-jonel.
-# 1.3.1.2. Profiling Job: bus2025-fol-lst-ds-prf-jonel was run to analyze the schema, data types, and statistical properties.
+1.3.1. Folderyear_List:
+1.3.1.1. DataBrew Project: bus2025-fol-lst-prj-jonel created with dataset bus2025-fol-lst-ds-jonel.
+1.3.1.2. Profiling Job: bus2025-fol-lst-ds-prf-jonel was run to analyze the schema, data types, and statistical properties.
 # 1.3.2. Businesstype_List:
 # 1.3.2.1	Dataset created and profiling job bus2025-bus-lst-ds-prf-jonel was run.
 # 1.3.3. City_List:
@@ -96,9 +97,8 @@
 # 9. Conclusion:
 # 9.1. This analysis provides a structured, data-driven approach to understanding business licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver.
 # 9.2. Furthermore, it enables the City to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
-
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/raw/main/Design_Part_1.png)
-
+# D
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
 
 
 
