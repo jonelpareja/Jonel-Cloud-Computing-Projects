@@ -26,9 +26,11 @@ City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
 1.2.2.2 Businesstype_List.csv
 1.2.2.3 City_List.csv
 # 1.3. Data Profiling (AWS Glue DataBrew):
-1.3.1. Folderyear_List:
-1.3.1.1. DataBrew Project: bus2025-fol-lst-prj-jonel created with dataset bus2025-fol-lst-ds-jonel.
-1.3.1.2. Profiling Job: bus2025-fol-lst-ds-prf-jonel was run to analyze the schema, data types, and statistical properties.
+1.3.1. Folderyear_List
+
+1.3.1.1. DataBrew Project: bus2025-fol-lst-prj-jonel created with dataset bus2025-fol-lst-ds-jonel
+
+1.3.1.2. Profiling Job: bus2025-fol-lst-ds-prf-jonel was run to analyze the schema, data types, and statistical properties
 # 1.3.2. Businesstype_List:
 # 1.3.2.1	Dataset created and profiling job bus2025-bus-lst-ds-prf-jonel was run.
 # 1.3.3. City_List:
