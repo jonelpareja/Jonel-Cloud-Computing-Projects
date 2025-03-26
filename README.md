@@ -93,3 +93,5 @@ Deliverables:
         This analysis provides a structured, data-driven approach to understanding business
 licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver. Furthermore, it enables the City to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
 
+# https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png
+
