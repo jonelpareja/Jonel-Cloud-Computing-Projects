@@ -32,7 +32,8 @@
 # 1.3.2.1	Dataset created and profiling job bus2025-bus-lst-ds-prf-jonel was run.
 # 1.3.3. City_List:
 # 1.3.3.1. DataBrew Project: bus2025-cit-lst-prj-jonel created with dataset bus2025-cit-lst-ds-jonel.
-# 1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
+- 1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
+! [AWS] (https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
 •	Data Cleaning (AWS Glue DataBrew): Based on profiling insights, cleaning recipes were built and applied:
 •	Folderyear_List: Cleaning Job bus2025-fol-lst-cln-jonel executed, producing cleaned outputs in CSV (S3 user folder) and Parquet (S3 system folder).
 •	BusinessType_List: Cleaning Job bus2025-bus-lst-cln-jonel executed, producing cleaned outputs in CSV and Parquet in respective S3 folders.
@@ -93,5 +94,5 @@ Deliverables:
         This analysis provides a structured, data-driven approach to understanding business
 licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver. Furthermore, it enables the City to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
 
-! [AWS] (https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
+
 
