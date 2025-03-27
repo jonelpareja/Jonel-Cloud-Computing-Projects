@@ -1,16 +1,22 @@
 
- #                                                                 Project Part 1
+ # Project Part 1
 # Project Description:
  This descriptive analysis project details the process and initial findings for preparing and understanding foundational datasets used within the City of Vancouver's Data Analytics Platform (DAP). Specifically, it focuses on the Folderyear_List, Businesstype_List, and City_List datasets, essential for the broader "Business Licences 2025 Procedure" analysis. This document outlines the steps taken to ingest, profile, clean, catalogue, and summarize these supporting datasets, providing a clear overview of their characteristics and readiness for further analytical use.
 # Project Title: 
 City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
+# Project Part 1 Draw.io Design
+# Part 1
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
+# Part 2 
+![AAWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%202.png)
+
 # Objectives:
 1. The primary objectives of this descriptive analysis are:
 2. To document the end-to-end procedure for ingesting, preparing, and cataloging the Folderyear_List, Businesstype_List, and City_List datasets using AWS cloud services.
 3. To profile and understand these essential supporting datasets' structure, content, quality, and statistical characteristics.
 4. To generate descriptive summaries and basic visualizations to illustrate the content of these lists.
 5. To ensure these foundational datasets are cleaned, well-documented (via catalogue), and ready for integration and use in subsequent, more complex analyses within the "Business Licences 2025 # Procedure" on the City of Vancouver's DAP.
-# Dataset:
+# Datasets:
 1.	Business_Licences_2025: Includes three key files:
 2.	Folderyear_List.csv: License records categorized by year.
 3.	Businesstype_List.csv: License classifications by business type (e.g., retail, hospitality).
@@ -108,8 +114,8 @@ Based on profiling insights, cleaning recipes were built and applied:
 # 9. Conclusion:
 # 9.1. This analysis provides a structured, data-driven approach to understanding business licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver.
 # 9.2. Furthermore, it enables the City to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
-# D
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
+
+
 
 
 
