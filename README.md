@@ -73,6 +73,9 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 1.3.3.1. DataBrew Project: bus2025-cit-lst-prj-jonel created with dataset bus2025-cit-lst-ds-jonel.
 
 1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
+# Folderyear_List: Created project name  bus2025-fol-lst-prj-jonel project and dataset name bus2025-fol-lst-ds-jonel
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling1.png)
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling2.png)
 # 1.4.	Data Cleaning (AWS Glue DataBrew): 
 Based on profiling insights, cleaning recipes were built and applied:
 
