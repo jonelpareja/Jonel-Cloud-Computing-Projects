@@ -67,30 +67,39 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 
 1.3.1.2. Profiling Job: bus2025-fol-lst-ds-prf-jonel was run to analyze the schema, data types, and statistical properties
 
-# 1.3.2. Businesstype_List:
-1.3.2.1	Dataset created and profiling job bus2025-bus-lst-ds-prf-jonel was run.
-# 1.3.3. City_List:
-1.3.3.1. DataBrew Project: bus2025-cit-lst-prj-jonel created with dataset bus2025-cit-lst-ds-jonel.
-
-1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
 # Folderyear_List: Created project name  bus2025-fol-lst-prj-jonel project and dataset name bus2025-fol-lst-ds-jonel
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling1.png)
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling2.png)
 # Created and run the job bus2025-fol-lst-ds-prf-jonel
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/afb8f2e855228131ef52d10fb5adcbc589b9403c/Created%20and%20run%20the%20job%20bus2025-fol-lst-ds-prf-jonel.png)
+
+# 1.3.2. Businesstype_List:
+
+1.3.2.1	Dataset created and profiling job bus2025-bus-lst-ds-prf-jonel was run.
+
+# 1.3.3. City_List:
+
+1.3.3.1. DataBrew Project: bus2025-cit-lst-prj-jonel created with dataset bus2025-cit-lst-ds-jonel.
+
+1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
+
 # 1.4.	Data Cleaning (AWS Glue DataBrew): 
 Based on profiling insights, cleaning recipes were built and applied:
 
 1.4.1. Folderyear_List: Cleaning Job bus2025-fol-lst-cln-jonel executed, producing cleaned outputs in CSV (S3 user folder) and Parquet (S3 system folder).
 
+# Cleaning job bus2025-fol-lst-cln-jonel  csv and parquet stored in S3 User and System folders, respectively.
+
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.png)
+
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
+
 1.4.2. BusinessType_List: Cleaning Job bus2025-bus-lst-cln-jonel executed, producing cleaned outputs in CSV and Parquet in respective S3 folders.
 
 1.4.3.	City_List: Cleaning Job bus2025-cln-lst-cln-jonel executed (Note: Typo in provided step, likely meant bus2025-cit-lst-cln-jonel), producing cleaned outputs in CSV and Parquet.
-# Cleaning job bus2025-fol-lst-cln-jonel  csv and parquet stored in S3 User and System folders, respectively.
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.pnghttps://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
-# Cleaning job bus2025-fol-lst-cln-jonel  csv and parquet stored in S3 User and System folders, respectively.
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.png)
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
+
+
+
 
 # 1.5.	Data Cataloging (AWS Glue Data Catalog, Glue Crawler):
 
