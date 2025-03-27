@@ -65,8 +65,10 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 
 1.3.1.2. Profiling Job: bus2025-fol-lst-ds-prf-jonel was run to analyze the schema, data types, and statistical properties
 
-# Folderyear_List: Created project name  bus2025-fol-lst-prj-jonel project and dataset name bus2025-fol-lst-ds-jonel
+# Created project name  bus2025-fol-lst-prj-jonel project 
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling1.png)
+
+# Created dataset name bus2025-fol-lst-ds-jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling2.png)
 # Created and run the job bus2025-fol-lst-ds-prf-jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/afb8f2e855228131ef52d10fb5adcbc589b9403c/Created%20and%20run%20the%20job%20bus2025-fol-lst-ds-prf-jonel.png)
@@ -76,11 +78,31 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 
 1.3.2.1	Dataset created and profiling job bus2025-bus-lst-ds-prf-jonel was run.
 
+# Businesstype_List: Created project name bus2025-bus-lst-prj-jonel 
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f0b8b0f2f1d6e614239512e2a2bbb0ce3eae4db1/project%20naame%20bus2025-bus-lst-prj-jonel.png)
+
+# Created dataset name bus2025-bus-lst-ds-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f0b8b0f2f1d6e614239512e2a2bbb0ce3eae4db1/dataset%20name%20bus2025-bus-lst-ds-jonel.png)
+
+# Created and run the job bus2025-bus-lst-ds-prf-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/b15bfd4ec8fae2667c30b8aa50a088f4f5b2bfd2/Created%20and%20run%20the%20job%20bus2025-fol-lst-ds-prf-jonel.png)
+
 # 1.3.3. City_List:
 
 1.3.3.1. DataBrew Project: bus2025-cit-lst-prj-jonel created with dataset bus2025-cit-lst-ds-jonel.
 
+# Created project name bus2025-cit-lst-prj-jonel 
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/df8e8af5215e597d0de7f626b7343023ee103c91/project%20name%20bus2025-cit-lst-prj-jonel.png)
+
+# Created dataset name bus2025-cit-lst-ds-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/df8e8af5215e597d0de7f626b7343023ee103c91/dataset%20name%20bus2025-cit-lst-ds-jonel.png)
+
 1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
+# Created the job bus2025-cit-lst-ds-prf-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f6ccf77d9393d3b794f09ea0ecd08c323ea36355/bus2025-cit-lst-ds-prf-jonel1.png)
+
+# Run the job bus2025-cit-lst-ds-prf-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f6ccf77d9393d3b794f09ea0ecd08c323ea36355/bus2025-cit-lst-ds-prf-jonel2.png)
 
 # 1.4.	Data Cleaning (AWS Glue DataBrew): 
 Based on profiling insights, cleaning recipes were built and applied:
