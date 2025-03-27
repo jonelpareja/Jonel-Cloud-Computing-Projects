@@ -42,7 +42,7 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 1.2.2.3 City_List.csv
 # Screenshots of the Project Implementation in AWS Services
 # Created 3 folders in AWS S3
-![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/jonelpareja/Jonel-Cloud-Computing-Projects/4309f958d38e2dac624bb5697e141820b8edf692/Created%203%20folders%20in%20AWS%20S3.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/4309f958d38e2dac624bb5697e141820b8edf692/Created%203%20folders%20in%20AWS%20S3.png)
 # Created EC2 Instance RGVS-Jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/Created%20EC2%20Instance%20RGVS-Jonel.png)
 # Connected to EC2 via RDP and created list of csv files 
@@ -66,10 +66,10 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 1.3.1.2. Profiling Job: bus2025-fol-lst-ds-prf-jonel was run to analyze the schema, data types, and statistical properties
 
 # Folderyear_List: Created project name  bus2025-fol-lst-prj-jonel project and dataset name bus2025-fol-lst-ds-jonel
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling1.png)
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling2.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling1.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling2.png)
 # Created and run the job bus2025-fol-lst-ds-prf-jonel
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/afb8f2e855228131ef52d10fb5adcbc589b9403c/Created%20and%20run%20the%20job%20bus2025-fol-lst-ds-prf-jonel.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/afb8f2e855228131ef52d10fb5adcbc589b9403c/Created%20and%20run%20the%20job%20bus2025-fol-lst-ds-prf-jonel.png)
 
 # 1.3.2. Businesstype_List:
 
@@ -88,9 +88,9 @@ Based on profiling insights, cleaning recipes were built and applied:
 
 # Cleaning job bus2025-fol-lst-cln-jonel  csv and parquet stored in S3 User and System folders, respectively.
 
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Project/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.png)
 
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
 
 1.4.2. BusinessType_List: Cleaning Job bus2025-bus-lst-cln-jonel executed, producing cleaned outputs in CSV and Parquet in respective S3 folders.
 
@@ -137,16 +137,16 @@ The Glue Crawler successfully created metadata tables in the businesslicences202
 
 5.4.1. Folderyear_List: Provides a defined set of [Number] years, ranging from [Min Year] to [Max Year], relevant to the business licence analysis.
 # Folderyears List Summarization
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/Folderyears%20List%20Summarization1.png)
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/Folderyears%20List%20Summarization2.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/648bf7930b62045b8c45756de65cd625575f1e14/Folderyears%20List%20Summarization1.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/648bf7930b62045b8c45756de65cd625575f1e14/Folderyears%20List%20Summarization2.png)
 5.4.2. Businesstype_List: A comprehensive list of [Number] unique business types recognized or categorized by the City of Vancouver.
 # Businesstype_List Summarization
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/Businesstype_List%20Summarization1.png)
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/Businesstype_List%20Summarization2.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/648bf7930b62045b8c45756de65cd625575f1e14/Businesstype_List%20Summarization1.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/648bf7930b62045b8c45756de65cd625575f1e14/Businesstype_List%20Summarization2.png)
 5.4.3. City_List: Includes a list of [Number] cities as geographical reference points.
 # City List Summarization
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/City%20List%20Summarization1.png)
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/City%20List%20Summarization2.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/648bf7930b62045b8c45756de65cd625575f1e14/City%20List%20Summarization1.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/648bf7930b62045b8c45756de65cd625575f1e14/City%20List%20Summarization2.png)
 
 # 5.5. Foundation for Analysis: 
 These prepared and cataloged lists are now reliable resources for enriching, filtering, and providing context to the main City of Vancouver business licence data within the DAP.
@@ -205,13 +205,13 @@ This analysis provides a structured, data-driven approach to understanding busin
 # City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part2)
 # Project Part 2 Draw.io Design
 # Part 1
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%201.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%201.png)
 # Part 2 
-![AAWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%202.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%202.png)
 # Part 3
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%203.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%203.png)
 # Part 4
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%204.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%204.png)
 
 # Objectives:
 1. To establish a secure, scalable data pipeline for business license management
