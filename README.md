@@ -56,8 +56,11 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 1.3.3.2. Profiling Job: bus2025-cit-lst-ds-prf-jonel was run.
 # 1.4.	Data Cleaning (AWS Glue DataBrew): 
 Based on profiling insights, cleaning recipes were built and applied:
+
 1.4.1. Folderyear_List: Cleaning Job bus2025-fol-lst-cln-jonel executed, producing cleaned outputs in CSV (S3 user folder) and Parquet (S3 system folder).
+
 1.4.2. BusinessType_List: Cleaning Job bus2025-bus-lst-cln-jonel executed, producing cleaned outputs in CSV and Parquet in respective S3 folders.
+
 1.4.3.	City_List: Cleaning Job bus2025-cln-lst-cln-jonel executed (Note: Typo in provided step, likely meant bus2025-cit-lst-cln-jonel), producing cleaned outputs in CSV and Parquet.
 # 1.5.	Data Cataloging (AWS Glue Data Catalog, Glue Crawler):
 # 1.5.1. Data Catalog Database: businesslicences2025-data-catalog-jonel was created.
