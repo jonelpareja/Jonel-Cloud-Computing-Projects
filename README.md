@@ -58,7 +58,6 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 # City_List CSV in S3 location
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/City_List%20CSV%20S3%20location.png)
 
-
 # 1.3. Data Profiling (AWS Glue DataBrew):
 # 1.3.1. Folderyear_List:
 
@@ -97,15 +96,11 @@ Based on profiling insights, cleaning recipes were built and applied:
 
 1.4.3.	City_List: Cleaning Job bus2025-cln-lst-cln-jonel executed (Note: Typo in provided step, likely meant bus2025-cit-lst-cln-jonel), producing cleaned outputs in CSV and Parquet.
 
-
-
-
 # 1.5.	Data Cataloging (AWS Glue Data Catalog, Glue Crawler):
 
 1.5.1. Data Catalog Database: businesslicences2025-data-catalog-jonel was created.
 
 1.5.2.	Crawler: businesslicences2025-crew-jones was configured and run, targeting the cleaned, structured data (likely the Parquet files in S3 system folders) to automatically infer schemas and create tables in the Glue Data Catalog. This makes the cleaned data queryable using services like AWS Athena.
-
 
 # 2. Descriptive Statistics:
 2.1. Following data cataloging, AWS Athena was used to query the tables created by the Glue Crawler in the businesslicences2025-data-catalogue-jonel database.
@@ -198,9 +193,9 @@ Maintain documentation, including this analysis, within the DAP environment to e
 Tables for the cleaned lists within the businesslicences2025-data-catalog-jonel database, created by businesslicences2025-crw-jonel.
 # 8.4. Summary Statistics: 
 Each list's count, distinct values, and ranges are generated via Athena queries and DataBrew profiling.
-
 # 9. Conclusion:
 This analysis provides a structured, data-driven approach to understanding business licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver. Furthermore, it enables the city to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
+
 
 
 # Project Part 2
