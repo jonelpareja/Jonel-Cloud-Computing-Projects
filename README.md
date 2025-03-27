@@ -396,16 +396,41 @@ Created rule bus2025-cit-rep-rul-jonel
 # Created ETL Visual bus2025-bus-QC-jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/dc9dafdb3b37a228bbfa6699aba84c07ded39194/Created%20ETL%20Visual%20bus2025-bus-QC-jonel.png)
 
- # Job Succeeded - bus2025-bus-QC-jonel 
+# Job Succeeded - bus2025-bus-QC-jonel 
  ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/dc9dafdb3b37a228bbfa6699aba84c07ded39194/Job%20Succeeded%20-%20bus2025-bus-QC-jonel.png)
  
- # Quality Check Passed 
+# Quality Check Passed 
  ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/dc9dafdb3b37a228bbfa6699aba84c07ded39194/Quality%20Check%20Passed.png)
  
- # Quality Check Failed
+# Quality Check Failed
  ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/dc9dafdb3b37a228bbfa6699aba84c07ded39194/Quality%20Check%20Failed.png)
 
- 
+# Step 8: Data Monitoring
+# Using CloudWatch Service
+
+Metrics are ff. BucketSizeBytes is below, with a custom monthly unit of time that lasts two hours and a refresh every 15 minutes.
+
+businesslicences2025-raw-jonelp
+
+businesslicences2025-cur-jonel
+
+businesslicences2025-trf-jonel
+
+# Created a widget with a custom monthly unit of time.
+# Created Alarm BucketSizeBytes businesslicences2025-raw-jonelp with created and defined threshold value 40000 
+# Created Notification - Notification_for_businesslicences2025_data_team send to email jonel.pareja@myucwest.ca 
+# Created Alarm name - busi2025-alm-jonel
+# Created Dashboard – busi2025-MCR-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/55bc7efadee940eb5d7d31a401ff4e4814c297e8/Created%20Dashboard%20%E2%80%93%20busi2025-MCR-jonel.png)
+
+# CloudTrail
+To gather and log all activities of the aws user account
+# Created Trail - busi2025-tra-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/55bc7efadee940eb5d7d31a401ff4e4814c297e8/Created%20Trail%20-%20busi2025-tra-jonel.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/55bc7efadee940eb5d7d31a401ff4e4814c297e8/Created%20Trail%20-%20busi2025-tra-jonel%202.png)
+
+# Event History
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/55bc7efadee940eb5d7d31a401ff4e4814c297e8/Event%20History.png)
 
 # Conclusion:
 
