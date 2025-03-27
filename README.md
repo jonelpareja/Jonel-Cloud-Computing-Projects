@@ -43,7 +43,7 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 1.2.2.3 City_List.csv
 # Screenshots of the Project Implementation in AWS Services
 # Created 3 folders in AWS S3
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/raw/main/Design_Part_1.png)
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/4309f958d38e2dac624bb5697e141820b8edf692/Created%203%20folders%20in%20AWS%20S3.png)
 # Created EC2 Instance RGVS-Jonel
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/Created%20EC2%20Instance%20RGVS-Jonel.png)
 # Connected to EC2 via RDP and created list of csv files 
