@@ -346,13 +346,13 @@ This analysis provides a structured, data-driven approach to understanding busin
 # Screenshots of the Project Part 2 Implementation in AWS Services
 # Step 5: Data Analysis 
 # AWS Glue Data Brew businesslicences2025-fol-semi-job-jonel Succeeded 
-![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/AWS%20Glue%20Data%20Brew%20businesslicences2025-fol-semi-job-jonel.png
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/AWS%20Glue%20Data%20Brew%20businesslicences2025-fol-semi-job-jonel.png)
 # User – CSV File
-![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/User%20%E2%80%93%20CSV%20File.png
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/User%20%E2%80%93%20CSV%20File.png)
 # System – Parquet File
-![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/System%20%E2%80%93%20Parquet%20File.png
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/System%20%E2%80%93%20Parquet%20File.png)
 # Athena – Query Editor bus2025_adm_trf_system
-![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/Athena%20%E2%80%93%20Query%20Editor%20bus2025_adm_trf_system.png
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/Athena%20%E2%80%93%20Query%20Editor%20bus2025_adm_trf_system.png)
 
 # Conclusion:
 
