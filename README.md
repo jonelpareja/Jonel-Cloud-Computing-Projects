@@ -354,6 +354,43 @@ This analysis provides a structured, data-driven approach to understanding busin
 # Athena – Query Editor bus2025_adm_trf_system
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/632ecc02176ccb7f170f82cc9156cea54894b10f/Athena%20%E2%80%93%20Query%20Editor%20bus2025_adm_trf_system.png)
 
+# Step 6: Data Security 
+# Used Key Management Service (KMS) Service 
+KMS was created with the alias bus2025-fol-key-jonel and key ID 1fe49e87-943d-4908-86c6-f62d255c15a6.
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/42658edd4987f64a34fba50e23a7fef5eaf032fd/KMS.png)
+
+# 1st Bucket - businesslicences2025-raw-jonelp
+Default Encryption – using created KMS  with alias bus2025-fol-key-jonel and key ID 1fe49e87-943d-4908-86c6-f62d255c15a6.
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/42658edd4987f64a34fba50e23a7fef5eaf032fd/1st%20Bucket%20-%20businesslicences2025-raw-jonelp.png)
+
+# 1st Bucket Versioning - Enabled
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/42658edd4987f64a34fba50e23a7fef5eaf032fd/Bucket%20Versioning%20-%20Enabled.png)
+
+# Replication Rule
+Created rule bus2025-fol-rep-rul-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/16d2c1f4fd9ceedb605449a8aeb9ec15953fdf95/Replication%20Rule%20Created%20rule%20bus2025-fol-rep-rul-jonel.png)
+
+# 2nd Bucket - businesslicences2025-trf-jonel
+Default Encryption – using KMS  with alias bus2025-fol-key-jonel and key ID 1fe49e87-943d-4908-86c6-f62d255c15a6.
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/16d2c1f4fd9ceedb605449a8aeb9ec15953fdf95/2nd%20Bucket%20-%20businesslicences2025-trf-jonel.png)
+
+# 2nd Bucket Versioning - Enabled
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/16d2c1f4fd9ceedb605449a8aeb9ec15953fdf95/2nd%20Bucket%20Versioning%20-%20Enabled.png)
+
+# Replication Rule 
+Created rule bus2025-bus-rep-rul-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/16d2c1f4fd9ceedb605449a8aeb9ec15953fdf95/Replication%20Rule%20Created%20rule%20bus2025-bus-rep-rul-jonel.png)
+
+# 3rd Bucket - businesslicences2025-cur-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/16d2c1f4fd9ceedb605449a8aeb9ec15953fdf95/3rd%20Bucket%20-%20businesslicences2025-cur-jonel.png)
+
+# 3rd Bucket Versioning - Enabled
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/16d2c1f4fd9ceedb605449a8aeb9ec15953fdf95/3rd%20Bucket%20Versioning%20-%20Enabled.png)
+
+# Replication Rule 
+Created rule bus2025-cit-rep-rul-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/16d2c1f4fd9ceedb605449a8aeb9ec15953fdf95/Replication%20Rule%20Created%20rule%20bus2025-cit-rep-rul-jonel.png)
+
 # Conclusion:
 
 Project Part 2 extends the Business Licenses 2025 pipeline with automated data analysis, security, governance, and monitoring. Furthermore, this descriptive analysis provides the City of Vancouver with a comprehensive framework for managing business license data through secure, governed, and monitored processes, enabling efficient operations and data-driven policy decisions. Additionally, implementing this comprehensive data pipeline significantly advances the City of Vancouver's business licensing operations. We have established a foundation for more efficient and transparent municipal services by transitioning to a cloud-based, automated system. This modernization positions Vancouver as a leader in digital government services, setting a benchmark for other municipalities. The data-driven approach will enable continuous improvement through analytics and performance monitoring.
