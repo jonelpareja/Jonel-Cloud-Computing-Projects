@@ -133,10 +133,17 @@ The Glue Crawler successfully created metadata tables in the businesslicences202
 # 5.4. Data Summarization: Content Summary (from Descriptive Stats & Summarization - Step 5):
 
 5.4.1. Folderyear_List: Provides a defined set of [Number] years, ranging from [Min Year] to [Max Year], relevant to the business licence analysis.
-
+# Folderyears List Summarization
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/Folderyears%20List%20Summarization1.png)
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/Folderyears%20List%20Summarization2.png)
 5.4.2. Businesstype_List: A comprehensive list of [Number] unique business types recognized or categorized by the City of Vancouver.
-
+# Businesstype_List Summarization
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/Businesstype_List%20Summarization1.png)
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/Businesstype_List%20Summarization2.png)
 5.4.3. City_List: Includes a list of [Number] cities as geographical reference points.
+# City List Summarization
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/City%20List%20Summarization1.png)
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/648bf7930b62045b8c45756de65cd625575f1e14/City%20List%20Summarization2.png)
 
 # 5.5. Foundation for Analysis: 
 These prepared and cataloged lists are now reliable resources for enriching, filtering, and providing context to the main City of Vancouver business licence data within the DAP.
