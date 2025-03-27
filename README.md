@@ -5,9 +5,9 @@
 # City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
 # Project Part 1 Draw.io Design
 # Part 1
-![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
 # Part 2 
-![Data Ingestion Diagram](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%202.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%202.png)
 # Part 3
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%203.png)
 # Part 4
