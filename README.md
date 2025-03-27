@@ -86,11 +86,18 @@ Based on profiling insights, cleaning recipes were built and applied:
 1.4.2. BusinessType_List: Cleaning Job bus2025-bus-lst-cln-jonel executed, producing cleaned outputs in CSV and Parquet in respective S3 folders.
 
 1.4.3.	City_List: Cleaning Job bus2025-cln-lst-cln-jonel executed (Note: Typo in provided step, likely meant bus2025-cit-lst-cln-jonel), producing cleaned outputs in CSV and Parquet.
+# Cleaning job bus2025-fol-lst-cln-jonel  csv and parquet stored in S3 User and System folders, respectively.
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.pnghttps://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
+# Cleaning job bus2025-fol-lst-cln-jonel  csv and parquet stored in S3 User and System folders, respectively.
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.png)
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
+
 # 1.5.	Data Cataloging (AWS Glue Data Catalog, Glue Crawler):
 
 1.5.1. Data Catalog Database: businesslicences2025-data-catalog-jonel was created.
 
 1.5.2.	Crawler: businesslicences2025-crew-jones was configured and run, targeting the cleaned, structured data (likely the Parquet files in S3 system folders) to automatically infer schemas and create tables in the Glue Data Catalog. This makes the cleaned data queryable using services like AWS Athena.
+
 
 # 2. Descriptive Statistics:
 2.1. Following data cataloging, AWS Athena was used to query the tables created by the Glue Crawler in the businesslicences2025-data-catalogue-jonel database.
@@ -123,7 +130,7 @@ The documented steps confirm a successful pipeline for ingesting, profiling, cle
 The cleaning jobs have produced standardized, analysis-ready versions of the Folderyear_List, Businesstype_List, and City_List in CSV and efficient Parquet formats.
 # 5.3. Cataloged Metadata: 
 The Glue Crawler successfully created metadata tables in the businesslicences2025-data-catalog-jonel, making the data easily discoverable and queryable.
-# 5.4. Content Summary (from Descriptive Stats & Summarization - Step 5):
+# 5.4. Data Summarization: Content Summary (from Descriptive Stats & Summarization - Step 5):
 
 5.4.1. Folderyear_List: Provides a defined set of [Number] years, ranging from [Min Year] to [Max Year], relevant to the business licence analysis.
 
