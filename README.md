@@ -116,8 +116,20 @@ Based on profiling insights, cleaning recipes were built and applied:
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
 
 1.4.2. BusinessType_List: Cleaning Job bus2025-bus-lst-cln-jonel executed, producing cleaned outputs in CSV and Parquet in respective S3 folders.
+# Created & run Data Cleaning Job bus2025-bus-lst-cln-jonel (2 output format in csv & parquet)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/02bc6a3839557d3228514b4d6fff50e114ac2fa2/Created%20%26%20run%20Data%20Cleaning%20Job%20bus2025-bus-lst-cln-jonel%20(2%20output%20format%20in%20csv%20%26%20parquet).png)
 
-1.4.3.	City_List: Cleaning Job bus2025-cln-lst-cln-jonel executed (Note: Typo in provided step, likely meant bus2025-cit-lst-cln-jonel), producing cleaned outputs in CSV and Parquet.
+# Cleaning job bus2025-bus-lst-cln-jonel CSV and parquet stored in S3 User and System folders, respectively.
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/c033318f957b3c625683744063b0aec0b54e1f7f/Cleaning%20job%20bus2025-bus-lst-cln-jonel%20%20csv.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/c033318f957b3c625683744063b0aec0b54e1f7f/Cleaning%20job%20bus2025-bus-lst-cln-jonel%20%20parquet.png)
+
+1.4.3.	City_List: Cleaning Job bus2025-cit-lst-cln-jonell executed, producing cleaned outputs in CSV and Parquet.
+# Created & run Data Cleaning Job bus2025-cln-lst-jonel (2 output format in csv & parquet)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f5acd23f797de4864802da948c9a9f57b5553302/Created%20%26%20run%20Data%20Cleaning%20Job%20bus2025-cln-lst-cln-jonel%20(2%20output%20format%20in%20csv%20%26%20parquet).png)
+
+# Cleaning job bus2025-cit-lst-cln-jonel CSV and parquet stored in S3 User and System folders, respectively.
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/2a9591dbf8a874fbd2892a55f7a2271362719f80/Cleaning%20job%20bus2025-cit-lst-cln-jonel%20csv.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/2a9591dbf8a874fbd2892a55f7a2271362719f80/Cleaning%20job%20bus2025-cit-lst-cln-jonel%20parquet.png)
 
 # 1.5.	Data Cataloging (AWS Glue Data Catalogue, Glue Crawler):
 
