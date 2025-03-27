@@ -82,9 +82,13 @@ Based on profiling insights, cleaning recipes were built and applied:
 # 2.3. AWS Glue DataBrew's summarization capabilities (as mentioned in Step 5): 
 It also leveraged during or after the cleaning phase to generate profiles and initial summaries.
 # 3. Data Visualization:
-3.1. Based on the descriptive statistics and queries via Athena, simple visualizations were created to represent the content of the lists:
-3.1.1. Tables: Listing the distinct values for Folderyear_List, Businesstype_List, and City_List.
-3.1.2. AWS Services: Glue DataBrew. Created visualizations in DataBrew (for business type frequency).
+
+Based on the descriptive statistics and queries via Athena, simple visualizations were created to represent the content of the lists:
+
+3.1. Tables: Listing the distinct values for Folderyear_List, Businesstype_List, and City_List.
+
+3.1. AWS Services: Glue DataBrew. Created visualizations in DataBrew (for business type frequency).
+
 # 4. Customer Segmentation:
 4.1. Segmented businesses by type (retail, food services), location (neighbourhoods), and year to identify high-growth sectors and underserved areas.
 
@@ -96,9 +100,13 @@ The cleaning jobs have produced standardized, analysis-ready versions of the Fol
 # 5.3. Cataloged Metadata: 
 The Glue Crawler successfully created metadata tables in the businesslicences2025-data-catalog-jonel, making the data easily discoverable and queryable.
 # 5.4. Content Summary (from Descriptive Stats & Summarization - Step 5):
+
 5.4.1. Folderyear_List: Provides a defined set of [Number] years, ranging from [Min Year] to [Max Year], relevant to the business licence analysis.
+
 5.4.2. Businesstype_List: A comprehensive list of [Number] unique business types recognized or categorized by the City of Vancouver.
+
 5.4.3. City_List: Includes a list of [Number] cities as geographical reference points.
+
 # 5.5. Foundation for Analysis: 
 These prepared and cataloged lists are now reliable resources for enriching, filtering, and providing context to the main City of Vancouver business licence data within the DAP.
 
