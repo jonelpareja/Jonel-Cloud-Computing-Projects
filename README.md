@@ -1,5 +1,4 @@
-
- # Project Part 1
+# Project Part 1
 # Project Description:
  This descriptive analysis project details the process and initial findings for preparing and understanding foundational datasets used within the City of Vancouver's Data Analytics Platform (DAP). Specifically, it focuses on the Folderyear_List, Businesstype_List, and City_List datasets, essential for the broader "Business Licences 2025 Procedure" analysis. This document outlines the steps taken to ingest, profile, clean, catalogue, and summarize these supporting datasets, providing a clear overview of their characteristics and readiness for further analytical use.
 # Project Title: 
