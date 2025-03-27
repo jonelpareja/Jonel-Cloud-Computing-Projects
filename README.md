@@ -347,6 +347,10 @@ This analysis provides a structured, data-driven approach to understanding busin
 
 Project Part 2 extends the Business Licenses 2025 pipeline with automated data analysis, security, governance, and monitoring. Furthermore, this descriptive analysis provides the City of Vancouver with a comprehensive framework for managing business license data through secure, governed, and monitored processes, enabling efficient operations and data-driven policy decisions. Additionally, implementing this comprehensive data pipeline significantly advances the City of Vancouver's business licensing operations. We have established a foundation for more efficient and transparent municipal services by transitioning to a cloud-based, automated system. This modernization positions Vancouver as a leader in digital government services, setting a benchmark for other municipalities. The data-driven approach will enable continuous improvement through analytics and performance monitoring.
 
+# My AWS Badge 2025
+
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/2c7a5f524d332a1c02a4ffe41fcdc892ec8618c4/AWS%20Badge%20-%20Jonel%20Pareja.png
+
 
 
 
