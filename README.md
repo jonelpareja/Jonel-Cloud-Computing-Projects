@@ -50,11 +50,11 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/s3%20folder%20created.png)
 # Connected to EC2 via RDP and created 3 CSV files) 
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/folders%20list%20and%20connected%20to%20rdp.png)
-# Data Ingestion using Powershell (EC2 RDP) to S3
+# Data Ingestion using Powershell Script (EC2 RDP) to S3
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/Data%20Ingestion%20using%20Powershell%20%20(EC2%20RDP)%20to%20S3.png)
 # Folderyear_List.csv S3 location
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/Folderyear_List.csv%20S3%20location%20.png)
-# Businesstype_List.csv in S3 location)
+# Businesstype_List.csv in S3 location
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/Businesstype_List.csv%20%20S3%20location.png)
 # City_List CSV in S3 location
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/City_List%20CSV%20S3%20location.png)
