@@ -5,13 +5,13 @@
 # City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
 # Project Part 1 Draw.io Design
 # Part 1
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
+![AWS](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
 # Part 2 
-![AAWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%202.png)
+![AAWS](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%202.png)
 # Part 3
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%203.png)
+![AWS](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%203.png)
 # Part 4
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%204.png)
+![AWS](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%204.png)
 
 # Objectives:
 1. The primary objectives of this descriptive analysis are:
@@ -253,7 +253,7 @@ This analysis provides a structured, data-driven approach to understanding busin
 
 5. Output generation in analysis-ready formats
 
-# 2. Descriptive Statistics:
+# Descriptive Statistics:
 
 1. Data completeness metrics
 
@@ -265,7 +265,7 @@ This analysis provides a structured, data-driven approach to understanding busin
 
 5. Operational performance indicators
 
-# 3. Data Visualization:
+# Data Visualization:
 
 1. CloudWatch dashboards for system monitoring
 
@@ -277,7 +277,7 @@ This analysis provides a structured, data-driven approach to understanding busin
 
 5. Security event logging
 
-# 4. Customer Segmentation:
+# Customer Segmentation:
 
 1. Business type categorization
 
@@ -289,7 +289,7 @@ This analysis provides a structured, data-driven approach to understanding busin
 
 5. Renewal frequency patterns
 
-# 5. Insights and Findings:
+# Insights and Findings:
 
 1. Automated processing reduces manual work by 60%
 
@@ -301,7 +301,7 @@ This analysis provides a structured, data-driven approach to understanding busin
 
 5. Archive system reduces active storage costs by 35%
 
-# 6. Recommendations:
+# Recommendations:
 
 1. Implement additional data quality validation rules.
 
@@ -345,7 +345,7 @@ This analysis provides a structured, data-driven approach to understanding busin
 
 # Conclusion:
 
-Project Part 2 extends the Business Licenses 2025 pipeline with automated data analysis, security, governance, and monitoring. Furthermore, this descriptive analysis provides the City of Vancouver with a comprehensive framework for managing business license data through secure, governed, and monitored processes, enabling efficient operations and data-driven policy decisions. Additionally, the implementation of this comprehensive data pipeline represents a significant advancement in the City of Vancouver's business licensing operations. By transitioning to a cloud-based, automated system, we have established a foundation for more efficient and transparent municipal services. This modernization positions Vancouver as a leader in digital government services, setting a benchmark for other municipalities. The data-driven approach will enable continuous improvement through analytics and performance monitoring.
+Project Part 2 extends the Business Licenses 2025 pipeline with automated data analysis, security, governance, and monitoring. Furthermore, this descriptive analysis provides the City of Vancouver with a comprehensive framework for managing business license data through secure, governed, and monitored processes, enabling efficient operations and data-driven policy decisions. Additionally, implementing this comprehensive data pipeline significantly advances the City of Vancouver's business licensing operations. We have established a foundation for more efficient and transparent municipal services by transitioning to a cloud-based, automated system. This modernization positions Vancouver as a leader in digital government services, setting a benchmark for other municipalities. The data-driven approach will enable continuous improvement through analytics and performance monitoring.
 
 
 
