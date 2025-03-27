@@ -45,7 +45,7 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/4309f958d38e2dac624bb5697e141820b8edf692/Created%203%20folders%20in%20AWS%20S3.png)
 # Created EC2 Instance RGVS-Jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/Created%20EC2%20Instance%20RGVS-Jonel.png)
-# Connected to EC2 via RDP and created list of csv files 
+# Connected to EC2 via RDP and created a list of csv files 
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/s3%20folder%20created.png)
 # Connected to EC2 via RDP and created 3 CSV files) 
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/folders%20list%20and%20connected%20to%20rdp.png)
@@ -86,7 +86,7 @@ Based on profiling insights, cleaning recipes were built and applied:
 
 1.4.1. Folderyear_List: Cleaning Job bus2025-fol-lst-cln-jonel executed, producing cleaned outputs in CSV (S3 user folder) and Parquet (S3 system folder).
 
-# Cleaning job bus2025-fol-lst-cln-jonel  csv and parquet stored in S3 User and System folders, respectively.
+# Cleaning job bus2025-fol-lst-cln-jonel csv and parquet stored in S3 User and System folders, respectively.
 
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Project/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.png)
 
@@ -96,16 +96,16 @@ Based on profiling insights, cleaning recipes were built and applied:
 
 1.4.3.	City_List: Cleaning Job bus2025-cln-lst-cln-jonel executed (Note: Typo in provided step, likely meant bus2025-cit-lst-cln-jonel), producing cleaned outputs in CSV and Parquet.
 
-# 1.5.	Data Cataloging (AWS Glue Data Catalog, Glue Crawler):
+# 1.5.	Data Cataloging (AWS Glue Data Catalogue, Glue Crawler):
 
-1.5.1. Data Catalog Database: businesslicences2025-data-catalog-jonel was created.
+1.5.1. Data Catalogue Database: businesslicences2025-data-catalogue-jonel was created.
 
 1.5.2.	Crawler: businesslicences2025-crew-jones was configured and run, targeting the cleaned, structured data (likely the Parquet files in S3 system folders) to automatically infer schemas and create tables in the Glue Data Catalog. This makes the cleaned data queryable using services like AWS Athena.
 
 # 2. Descriptive Statistics:
 2.1. Following data cataloging, AWS Athena was used to query the tables created by the Glue Crawler in the businesslicences2025-data-catalogue-jonel database.
 
-2.2. Basic SQL queries (e.g., COUNT, DISTINCT, MIN, MAX, listing values) were executed on each cataloged table (Folderyear_List_Cleaned, Businesstype_List_Cleaned, City_List_Cleaned) to generate summary statistics. This includes:
+2.2. Basic SQL queries (e.g., COUNT, DISTINCT, MIN, MAX, listing values) were executed on each catalogue table (Folderyear_List_Cleaned, Businesstype_List_Cleaned, City_List_Cleaned) to generate summary statistics. This includes:
 
 2.2.1. Total number of records in each list.
 
@@ -119,7 +119,7 @@ It also leveraged during or after the cleaning phase to generate profiles and in
 
 Based on the descriptive statistics and queries via Athena, simple visualizations were created to represent the content of the lists:
 
-3.1. Tables: Listing the distinct values for Folderyear_List, Businesstype_List, and City_List.
+3.1. Tables: List the distinct values for Folderyear_List, Businesstype_List, and City_List.
 
 3.1. AWS Services: Glue DataBrew. Created visualizations in DataBrew (for business type frequency).
 
@@ -131,7 +131,7 @@ Based on the descriptive statistics and queries via Athena, simple visualization
 The documented steps confirm a successful pipeline for ingesting, profiling, cleaning, and cataloging supporting datasets using AWS S3, EC2, Glue DataBrew, and Glue Data Catalog.
 # 5.2. Data Readiness: 
 The cleaning jobs have produced standardized, analysis-ready versions of the Folderyear_List, Businesstype_List, and City_List in CSV and efficient Parquet formats.
-# 5.3. Cataloged Metadata: 
+# 5.3. Catalogue Metadata: 
 The Glue Crawler successfully created metadata tables in the businesslicences2025-data-catalog-jonel, making the data easily discoverable and queryable.
 # 5.4. Data Summarization: Content Summary (from Descriptive Stats & Summarization - Step 5):
 
@@ -149,31 +149,31 @@ The Glue Crawler successfully created metadata tables in the businesslicences202
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/648bf7930b62045b8c45756de65cd625575f1e14/City%20List%20Summarization2.png)
 
 # 5.5. Foundation for Analysis: 
-These prepared and cataloged lists are now reliable resources for enriching, filtering, and providing context to the main City of Vancouver business licence data within the DAP.
+These prepared and catalogue lists are now reliable resources for enriching, filtering, and providing context to the main City of Vancouver business licence data within the DAP.
 
 # 6. Recommendations:
 # 6.1. Standardization: 
-Utilize these cleaned and cataloged lists (Folderyear_List_Cleaned, Businesstype_List_Cleaned, City_List_Cleaned via Glue Data Catalog) as the standard, governed reference data for all analyses related to the "Business Licences 2025 Procedure" within the DAP.
+Utilize these cleaned and catalogue lists (Folderyear_List_Cleaned, Businesstype_List_Cleaned, City_List_Cleaned via Glue Data Catalogue) as the standard, governed reference data for all analyses related to the "Business Licences 2025 Procedure" within the DAP.
 # 6.2. Enrichment: 
-Use these lists to enrich the primary business licence dataset. For example, join the main dataset with Businesstype_List_Cleaned using a common key to add descriptive business type information.
+Use these lists to enrich the primary business licence dataset. For example, join the main dataset with Businesstype_List_Cleaned using a shared key to add descriptive business-type information.
 # 6.3. Maintenance Process: 
-Establish a clear process for updating and maintaining these lists. If they change, the ingestion, cleaning, and cataloging pipeline should be re-run to ensure downstream analyses use current information.
+Establish a transparent process for updating and maintaining these lists. If they change, the ingestion, cleaning, and cataloging pipeline should be re-run to ensure downstream analyses use current information.
 # 6.4. Documentation: 
-Maintain documentation, including this analysis, within the DAP environment to explain these supporting datasets' origin, purpose, and structure.
+Documentation, including this analysis, needs to be maintained within the DAP environment to explain the origin, purpose, and structure of these supporting datasets.
 
 # 7. Tools and Technologies:
 # 7.1. AWS Cloud Services:
 7.1.1. AWS S3 (Simple Storage Service): For raw data ingestion, storage of processed files (CSV, Parquet), and DataBrew/Glue job outputs.
 
-7.1.2. AWS EC2 (Elastic Compute Cloud): For initial data file staging and running PowerShell scripts for ingestion.
+7.1.2. AWS EC2 (Elastic Compute Cloud): This is used for initial data file staging and running PowerShell scripts for ingestion.
 
 7.1.3. AWS Glue DataBrew: For data profiling, interactive data cleaning, and running transformation jobs.
 
-7.1.4. AWS Glue Data Catalog: For creating a centralized metadata repository.
+7.1.4. AWS Glue Data Catalogue: For creating a centralized metadata repository.
 
-7.1.5. AWS Glue Crawler: This is used to automatically populate the data catalog.
+7.1.5. AWS Glue Crawler: This automatically populates the data catalogue.
 
-7.1.6. AWS Athena: To query the cataloged data in S3, standard SQL is used to generate descriptive statistics.
+7.1.6. AWS Athena: To query the Catalogue data in S3, standard SQL generates descriptive statistics.
 
 # 7.2. Other:
 7.2.1. PowerShell: For scripting data ingestion from EC2 to S3.
@@ -189,8 +189,8 @@ Maintain documentation, including this analysis, within the DAP environment to e
 
 8.2.3. City_List: Cleaned CSV and Parquet files in businesslicences2025-trf-jonel S3 bucket.
 
-# 8.3. AWS Glue Data Catalog Entries: 
-Tables for the cleaned lists within the businesslicences2025-data-catalog-jonel database, created by businesslicences2025-crw-jonel.
+# 8.3. AWS Glue Data Catalogue Entries: 
+Tables for the cleaned lists within the businesslicences2025-data-Catalogue-jonel database, created by businesslicences2025-crw-jonel.
 # 8.4. Summary Statistics: 
 Each list's count, distinct values, and ranges are generated via Athena queries and DataBrew profiling.
 # 9. Conclusion:
@@ -424,7 +424,7 @@ businesslicences2025-trf-jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/55bc7efadee940eb5d7d31a401ff4e4814c297e8/Created%20Dashboard%20%E2%80%93%20busi2025-MCR-jonel.png)
 
 # CloudTrail
-To gather and log all activities of the aws user account
+To gather and log all activities of the AWS user account
 # Created Trail - busi2025-tra-jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/55bc7efadee940eb5d7d31a401ff4e4814c297e8/Created%20Trail%20-%20busi2025-tra-jonel.png)
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/55bc7efadee940eb5d7d31a401ff4e4814c297e8/Created%20Trail%20-%20busi2025-tra-jonel%202.png)
