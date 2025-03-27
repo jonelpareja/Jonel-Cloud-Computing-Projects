@@ -86,9 +86,9 @@ Based on profiling insights, cleaning recipes were built and applied:
 
 1.4.1. Folderyear_List: Cleaning Job bus2025-fol-lst-cln-jonel executed, producing cleaned outputs in CSV (S3 user folder) and Parquet (S3 system folder).
 
-# Cleaning job bus2025-fol-lst-cln-jonel csv and parquet stored in S3 User and System folders, respectively.
+# Cleaning job bus2025-fol-lst-cln-jonel CSV and parquet stored in S3 User and System folders, respectively.
 
-![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Project/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning%202.png)
 
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/f9f59f2f3514f4785407e22afb1ef5671756ce15/data%20cleaning3.png)
 
