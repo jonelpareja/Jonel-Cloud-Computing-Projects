@@ -148,8 +148,10 @@ Maintain documentation, including this analysis, within the DAP environment to e
 
 8.2.3. City_List: Cleaned CSV and Parquet files in businesslicences2025-trf-jonel S3 bucket.
 
-# 8.3. AWS Glue Data Catalog Entries: Tables for the cleaned lists within the businesslicences2025-data-catalog-jonel database, created by businesslicences2025-crw-jonel.
-# 8.4. Summary Statistics: Counts, distinct values, and ranges for each list, generated via Athena queries and DataBrew profiling.
+# 8.3. AWS Glue Data Catalog Entries: 
+Tables for the cleaned lists within the businesslicences2025-data-catalog-jonel database, created by businesslicences2025-crw-jonel.
+# 8.4. Summary Statistics: 
+Counts, distinct values, and ranges for each list are generated via Athena queries and DataBrew profiling.
 
 # 9. Conclusion:
 This analysis provides a structured, data-driven approach to understanding business licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver. Furthermore, it enables the City to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
