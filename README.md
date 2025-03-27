@@ -70,6 +70,7 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/bdc4ebe758e557f65708ded3fe31d501e2ce38a0/Folderyear_List%20data%20profiling2.png)
 # Created and run the job bus2025-fol-lst-ds-prf-jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/afb8f2e855228131ef52d10fb5adcbc589b9403c/Created%20and%20run%20the%20job%20bus2025-fol-lst-ds-prf-jonel.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/abb00b5bb6591b620602b3469f991badd527933d/Created%20and%20run%20the%20job%20bus2025-fol-lst-ds-prf-jonel2.png)
 
 # 1.3.2. Businesstype_List:
 
