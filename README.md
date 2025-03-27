@@ -9,9 +9,9 @@
 # Part 2 
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%202.png)
 # Part 3
-![Data Ingestion Diagram](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%203.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%203.png)
 # Part 4
-![Data Ingestion Diagram](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%204.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%204.png)
 
 # Objectives:
 1. The primary objectives of this descriptive analysis are:
@@ -42,21 +42,21 @@ This phase involved sourcing, ingesting, profiling, and cleaning the supporting 
 1.2.2.3 City_List.csv
 # Screenshots of the Project Implementation in AWS Services
 # Created 3 folders in AWS S3
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/4309f958d38e2dac624bb5697e141820b8edf692/Created%203%20folders%20in%20AWS%20S3.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/jonelpareja/Jonel-Cloud-Computing-Projects/4309f958d38e2dac624bb5697e141820b8edf692/Created%203%20folders%20in%20AWS%20S3.png)
 # Created EC2 Instance RGVS-Jonel
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/Created%20EC2%20Instance%20RGVS-Jonel.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/Created%20EC2%20Instance%20RGVS-Jonel.png)
 # Connected to EC2 via RDP and created list of csv files 
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/s3%20folder%20created.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/s3%20folder%20created.png)
 # Connected to EC2 via RDP and created 3 CSV files) 
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/folders%20list%20and%20connected%20to%20rdp.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/folders%20list%20and%20connected%20to%20rdp.png)
 # Data Ingestion using Powershell Script (EC2 RDP) to S3
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/Data%20Ingestion%20using%20Powershell%20%20(EC2%20RDP)%20to%20S3.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/Data%20Ingestion%20using%20Powershell%20%20(EC2%20RDP)%20to%20S3.png)
 # Folderyear_List.csv S3 location
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/Folderyear_List.csv%20S3%20location%20.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/Folderyear_List.csv%20S3%20location%20.png)
 # Businesstype_List.csv in S3 location
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/Businesstype_List.csv%20%20S3%20location.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/Businesstype_List.csv%20%20S3%20location.png)
 # City_List CSV in S3 location
-![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/98d9638de72f17d1bbdb782414b247b926adec5e/City_List%20CSV%20S3%20location.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/98d9638de72f17d1bbdb782414b247b926adec5e/City_List%20CSV%20S3%20location.png)
 
 # 1.3. Data Profiling (AWS Glue DataBrew):
 # 1.3.1. Folderyear_List:
