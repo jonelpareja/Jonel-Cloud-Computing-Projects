@@ -391,6 +391,22 @@ Created rule bus2025-bus-rep-rul-jonel
 Created rule bus2025-cit-rep-rul-jonel
 ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/16d2c1f4fd9ceedb605449a8aeb9ec15953fdf95/Replication%20Rule%20Created%20rule%20bus2025-cit-rep-rul-jonel.png)
 
+# Step 7: Data Governance
+# Data Quality Check Using AWS Glue Service
+# Created ETL Visual bus2025-bus-QC-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/dc9dafdb3b37a228bbfa6699aba84c07ded39194/Created%20ETL%20Visual%20bus2025-bus-QC-jonel.png)
+
+ # Job Succeeded - bus2025-bus-QC-jonel 
+ ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/dc9dafdb3b37a228bbfa6699aba84c07ded39194/Job%20Succeeded%20-%20bus2025-bus-QC-jonel.png)
+ 
+ # Quality Check Passed 
+ ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/dc9dafdb3b37a228bbfa6699aba84c07ded39194/Quality%20Check%20Passed.png)
+ 
+ # Quality Check Failed
+ ![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/dc9dafdb3b37a228bbfa6699aba84c07ded39194/Quality%20Check%20Failed.png)
+
+ 
+
 # Conclusion:
 
 Project Part 2 extends the Business Licenses 2025 pipeline with automated data analysis, security, governance, and monitoring. Furthermore, this descriptive analysis provides the City of Vancouver with a comprehensive framework for managing business license data through secure, governed, and monitored processes, enabling efficient operations and data-driven policy decisions. Additionally, implementing this comprehensive data pipeline significantly advances the City of Vancouver's business licensing operations. We have established a foundation for more efficient and transparent municipal services by transitioning to a cloud-based, automated system. This modernization positions Vancouver as a leader in digital government services, setting a benchmark for other municipalities. The data-driven approach will enable continuous improvement through analytics and performance monitoring.
