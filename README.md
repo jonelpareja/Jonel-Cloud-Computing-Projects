@@ -214,119 +214,120 @@ This analysis provides a structured, data-driven approach to understanding busin
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%204.png)
 
 # Objectives:
-To establish a secure, scalable data pipeline for business license management
+1. To establish a secure, scalable data pipeline for business license management
 
-To implement comprehensive data governance and quality controls
+2. To implement comprehensive data governance and quality controls
 
-To develop monitoring systems for operational oversight
+3. To develop monitoring systems for operational oversight
 
-To enable data-driven decision-making for city officials
+4. To enable data-driven decision-making for city officials
 
 # Dataset:
-Business License Applications (2025)
+1. Business License Applications (2025)
 
-Processed License Data (CSV/Parquet formats)
+2. Processed License Data (CSV/Parquet formats)
 
-Quality-Controlled Data Outputs
+3. Quality-Controlled Data Outputs
 
-Archived License Records
+4. Archived License Records
 
 # Storage Locations:
 
-Raw: businesslicences2025-raw-jonelp
+1. Raw: businesslicences2025-raw-jonelp
 
-Processed: businesslicences2025-trf-jonel
+2. Processed: businesslicences2025-trf-jonel
 
-Archived: businesslicences2025-cur-jonel
+3. Archived: businesslicences2025-cur-jonel
 
 # Methodology:
 
-# 1. Data Collection and Preparation:
+# Data Collection and Preparation:
 
-Application intake through digital submission
+1. Application intake through digital submission
 
-Initial storage in secured S3 buckets
+2. Initial storage in secured S3 buckets
 
-Data transformation using AWS Glue DataBrew
+3. Data transformation using AWS Glue DataBrew
 
-Quality validation with automated checks
+4. Quality validation with automated checks
 
-Output generation in analysis-ready formats
+5. Output generation in analysis-ready formats
 
 # 2. Descriptive Statistics:
 
-Data completeness metrics
+1. Data completeness metrics
 
-Processing time measurements
+2. Processing time measurements
 
-Quality check pass/fail rates
+3. Quality check pass/fail rates
 
-Storage utilization statistics
+4. Storage utilization statistics
 
-Operational performance indicators
+5. Operational performance indicators
 
 # 3. Data Visualization:
-CloudWatch dashboards for system monitoring
 
-Data quality metrics visualization
+1. CloudWatch dashboards for system monitoring
 
-Storage capacity tracking
+2. Data quality metrics visualization
 
-Processing performance charts
+3. Storage capacity tracking
 
-Security event logging
+4. Processing performance charts
+
+5. Security event logging
 
 # 4. Customer Segmentation:
 
-Business type categorization
+1. Business type categorization
 
-Geographic distribution analysis
+2. Geographic distribution analysis
 
-License processing timelines
+3. License processing timelines
 
-Compliance status tracking
+4. Compliance status tracking
 
-Renewal frequency patterns
+5. Renewal frequency patterns
 
 # 5. Insights and Findings:
 
-Automated processing reduces manual work by 60%
+1. Automated processing reduces manual work by 60%
 
-Data quality checks improve accuracy by 45%
+2. Data quality checks improve accuracy by 45%
 
-Encryption ensures 100% compliance with privacy regulations
+3. Encryption ensures 100% compliance with privacy regulations.
 
-Monitoring systems provide real-time operational visibility
+4. Monitoring systems provide real-time operational visibility.
 
-Archive system reduces active storage costs by 35%
+5. Archive system reduces active storage costs by 35%
 
 # 6. Recommendations:
 
-Implement additional data quality validation rules
+1. Implement additional data quality validation rules.
 
-Expand monitoring to include user activity tracking
+2. Expand monitoring to include user activity tracking.
 
-Schedule regular security audits
+3. Schedule regular security audits.
 
-Develop automated alert escalation procedures
+4. Develop automated alert escalation procedures
 
-Optimize storage lifecycle policies
+5. Optimize storage lifecycle policies
 
 # Tools and Technologies:
 
-AWS S3 for secure data storage
+1. AWS S3 for secure data storage
 
-AWS Glue DataBrew for data transformation
+2. AWS Glue DataBrew for data transformation
 
-AWS KMS for encryption management
+3. AWS KMS for encryption management
 
-AWS CloudWatch for system monitoring
+4. AWS CloudWatch for system monitoring
 
-AWS CloudTrail for security auditing
+5. AWS CloudTrail for security auditing
 
-AWS Athena for data analysis
+6. AWS Athena for data analysis
 
-Parquet format for efficient querying
+7. Parquet format for efficient querying
 
 # Deliverables:
 
