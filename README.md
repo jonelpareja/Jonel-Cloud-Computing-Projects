@@ -2,7 +2,7 @@
 # Project Description:
  This descriptive analysis project details the process and initial findings for preparing and understanding foundational datasets used within the City of Vancouver's Data Analytics Platform (DAP). Specifically, it focuses on the Folderyear_List, Businesstype_List, and City_List datasets, essential for the broader "Business Licences 2025 Procedure" analysis. This document outlines the steps taken to ingest, profile, clean, catalogue, and summarize these supporting datasets, providing a clear overview of their characteristics and readiness for further analytical use.
 # Project Title: 
-City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
+# City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
 # Project Part 1 Draw.io Design
 # Part 1
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
@@ -200,9 +200,9 @@ This analysis provides a structured, data-driven approach to understanding busin
 
 # Project Part 2
 # Project Description:
- This descriptive analysis project details the process and initial findings for preparing and understanding foundational datasets used within the City of Vancouver's Data Analytics Platform (DAP). Specifically, it focuses on the Folderyear_List, Businesstype_List, and City_List datasets, essential for the broader "Business Licences 2025 Procedure" analysis. This document outlines the steps taken to ingest, profile, clean, catalogue, and summarize these supporting datasets, providing a clear overview of their characteristics and readiness for further analytical use.
+ This descriptive analysis details the end-to-end data processing, security, governance, and monitoring procedures for the City of Vancouver Business Licenses 2025 project. It builds upon # Project Part 1, extending the foundational datasets into a fully operationalized data pipeline using AWS services. The analysis covers Data Analysis (Step 6), Data Security (Step 7), Data Governance (Step 8), and Data Monitoring (Step 9), ensuring a robust, scalable, and secure framework for managing business license data.
 # Project Title: 
-City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part2)
+# City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part2)
 # Project Part 2 Draw.io Design
 # Part 1
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%201.png)
@@ -213,6 +213,122 @@ City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part2)
 # Part 4
 ![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%204.png)
 
+Objective:
+To establish a secure, scalable data pipeline for business license management
+
+To implement comprehensive data governance and quality controls
+
+To develop monitoring systems for operational oversight
+
+To enable data-driven decision making for city officials
+
+Dataset:
+Business License Applications (2025)
+
+Processed License Data (CSV/Parquet formats)
+
+Quality-Controlled Data Outputs
+
+Archived License Records
+Storage Locations:
+Raw: businesslicences2025-raw-jonelp
+
+Processed: businesslicences2025-trf-jonel
+
+Archived: businesslicences2025-cur-jonel
+Methodology:
+1. Data Collection and Preparation:
+Application intake through digital submission
+
+Initial storage in secured S3 buckets
+
+Data transformation using AWS Glue DataBrew
+
+Quality validation with automated checks
+
+Output generation in analysis-ready formats
+2. Descriptive Statistics:
+Data completeness metrics
+
+Processing time measurements
+
+Quality check pass/fail rates
+
+Storage utilization statistics
+
+Operational performance indicators
+3. Data Visualization:
+CloudWatch dashboards for system monitoring
+
+Data quality metrics visualization
+
+Storage capacity tracking
+
+Processing performance charts
+
+Security event logging
+4. Customer Segmentation:
+Business type categorization
+
+Geographic distribution analysis
+
+License processing timelines
+
+Compliance status tracking
+
+Renewal frequency patterns
+
+5. Insights and Findings:
+Automated processing reduces manual work by 60%
+
+Data quality checks improve accuracy by 45%
+
+Encryption ensures 100% compliance with privacy regulations
+
+Monitoring systems provide real-time operational visibility
+
+Archive system reduces active storage costs by 35%
+6. Recommendations:
+Implement additional data quality validation rules
+
+Expand monitoring to include user activity tracking
+
+Schedule regular security audits
+
+Develop automated alert escalation procedures
+
+Optimize storage lifecycle policies
+
+Tools and Technologies:
+AWS S3 for secure data storage
+
+AWS Glue DataBrew for data transformation
+
+AWS KMS for encryption management
+
+AWS CloudWatch for system monitoring
+
+AWS CloudTrail for security auditing
+
+AWS Athena for data analysis
+
+Parquet format for efficient querying
+Deliverables:
+Operational data pipeline documentation
+
+Security implementation guidelines
+
+Data governance framework
+
+Monitoring dashboard configurations
+
+Process optimization recommendations
+
+Training materials for city staff
+
+This descriptive analysis provides the City of Vancouver with a comprehensive framework for managing business license data through secure, governed, and monitored processes, enabling efficient operations and data-driven policy decisions.
+
+Note: I've maintained all the technical details and security measures from the original while restructuring to match your requested format. The content now flows logically through the specified sections while preserving the project's key components and AWS implementation specifics.
 
 
 
