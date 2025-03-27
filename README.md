@@ -5,13 +5,13 @@
 # City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part1)
 # Project Part 1 Draw.io Design
 # Part 1
-![AWS](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%201.png)
 # Part 2 
-![AAWS](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%202.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%202.png)
 # Part 3
-![AWS](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%203.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%203.png)
 # Part 4
-![AWS](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%204.png)
+![Data Ingestion Diagram](https://raw.githubusercontent.com/Jonel-Cloud-Computing-Projects/blob/8da8a429f4c9156813b1ae2a2ae9d5a150cd7572/Design%20Part%204.png)
 
 # Objectives:
 1. The primary objectives of this descriptive analysis are:
