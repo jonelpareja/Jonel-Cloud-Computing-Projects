@@ -349,7 +349,7 @@ Project Part 2 extends the Business Licenses 2025 pipeline with automated data a
 
 # My AWS Badge 2025
 
-![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/2c7a5f524d332a1c02a4ffe41fcdc892ec8618c4/AWS%20Badge%20-%20Jonel%20Pareja.png
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/2c7a5f524d332a1c02a4ffe41fcdc892ec8618c4/AWS%20Badge%20-%20Jonel%20Pareja.png)
 
 
 
