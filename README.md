@@ -134,8 +134,12 @@ Based on profiling insights, cleaning recipes were built and applied:
 # 1.5.	Data Cataloging (AWS Glue Data Catalogue, Glue Crawler):
 
 1.5.1. Data Catalogue Database: businesslicences2025-data-catalogue-jonel was created.
+# Created Data Catalog businesslicences2025-data-catalog-jonel 
+![Data Ingestion Diagram](https://raw.githubusercontent.com/jonelpareja/Jonel-Cloud-Computing-Projects/b8e028cd5a3c1cb6502724d71b2358c27611d386/Created%20Data%20Catalog%20businesslicences2025-data-catalog-jonel.png)
 
 1.5.2.	Crawler: businesslicences2025-crew-jones was configured and run, targeting the cleaned, structured data (likely the Parquet files in S3 system folders) to automatically infer schemas and create tables in the Glue Data Catalog. This makes the cleaned data queryable using services like AWS Athena.
+# Created Crawler businesslicences2025-crw-jonel
+![Data Ingestion Diagram](https://raw.githubusercontent.com/https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/b8e028cd5a3c1cb6502724d71b2358c27611d386/Created%20Crawler%20businesslicences2025-crw-jonel.png)
 
 # 2. Descriptive Statistics:
 2.1. Following data cataloging, AWS Athena was used to query the tables created by the Glue Crawler in the businesslicences2025-data-catalogue-jonel database.
