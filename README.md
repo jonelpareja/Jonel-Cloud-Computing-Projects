@@ -118,7 +118,7 @@ Use these lists to enrich the primary business licence dataset. For example, joi
 # 6.3. Maintenance Process: 
 Establish a clear process for updating and maintaining these lists. If they change, the ingestion, cleaning, and cataloging pipeline should be re-run to ensure downstream analyses use current information.
 # 6.4. Documentation: 
-Maintain documentation, including this analysis, within the DAP environment to explain the origin, purpose, and structure of these supporting datasets.
+Maintain documentation, including this analysis, within the DAP environment to explain these supporting datasets' origin, purpose, and structure.
 
 # 7. Tools and Technologies:
 # 7.1. AWS Cloud Services:
@@ -130,7 +130,7 @@ Maintain documentation, including this analysis, within the DAP environment to e
 
 7.1.4. AWS Glue Data Catalog: For creating a centralized metadata repository.
 
-7.1.5. AWS Glue Crawler: For automatically populating the Data Catalog.
+7.1.5. AWS Glue Crawler: This is used to automatically populate the data catalog.
 
 7.1.6. AWS Athena: To query the cataloged data in S3, standard SQL is used to generate descriptive statistics.
 
@@ -151,10 +151,10 @@ Maintain documentation, including this analysis, within the DAP environment to e
 # 8.3. AWS Glue Data Catalog Entries: 
 Tables for the cleaned lists within the businesslicences2025-data-catalog-jonel database, created by businesslicences2025-crw-jonel.
 # 8.4. Summary Statistics: 
-Counts, distinct values, and ranges for each list are generated via Athena queries and DataBrew profiling.
+Each list's count, distinct values, and ranges are generated via Athena queries and DataBrew profiling.
 
 # 9. Conclusion:
-This analysis provides a structured, data-driven approach to understanding business licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver. Furthermore, it enables the City to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
+This analysis provides a structured, data-driven approach to understanding business licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver. Furthermore, it enables the city to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
 
 
 
