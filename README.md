@@ -203,6 +203,22 @@ Each list's count, distinct values, and ranges are generated via Athena queries 
 This analysis provides a structured, data-driven approach to understanding business licensing patterns, supporting better regulatory decisions and economic planning for the City of Vancouver. Furthermore, it enables the city to enhance licensing efficiency, tailor economic policies, and foster a business-friendly environment through data-driven strategies.
 
 
+# Project Part 2
+# Project Description:
+ This descriptive analysis project details the process and initial findings for preparing and understanding foundational datasets used within the City of Vancouver's Data Analytics Platform (DAP). Specifically, it focuses on the Folderyear_List, Businesstype_List, and City_List datasets, essential for the broader "Business Licences 2025 Procedure" analysis. This document outlines the steps taken to ingest, profile, clean, catalogue, and summarize these supporting datasets, providing a clear overview of their characteristics and readiness for further analytical use.
+# Project Title: 
+City of Vancouver DAP Analysis: Business Licences 2025 Procedure (Project Part2)
+# Project Part 2 Draw.io Design
+# Part 1
+![AWS](https://github.com/jonelpareja/Jonel-Cloud-Computing-Projects/blob/7947da1ada05cf365d878c99804fd700ff7d92c4/Project%20Part%202%20Design%20Drawio%20Part%201.png)
+# Part 2 
+![AAWS]()
+# Part 3
+![AWS]()
+# Part 4
+![AWS]()
+
+
 
 
 
